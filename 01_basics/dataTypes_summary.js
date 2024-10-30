@@ -28,6 +28,33 @@ const myFunction = function(){
     console.log("Hello world")
 }
 
-console.log(typeof outsideTemp)
+// console.log(typeof outsideTemp)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// **********************************************
+
+/*Memory types
+Stack(Primitive Datatypes)
+
+Heap(Non-primitve Datatypes)
+*/
+
+let myYoutubeName = "hiteshchaudharydotcom"
+
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+
+// console.log(anothername)
+// console.log(myYoutubeName)
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl.com"
+}
+
+let userTwo = userOne
+
+userOne.email = "sumit@google.com"
+
+console.log(userTwo)
