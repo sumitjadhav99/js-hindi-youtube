@@ -63,5 +63,22 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor)
 console.log(instructor);
 
+// JSON format api
+/*
+{
+    "name":"Hitesh",
+    "courseName": "JS in hindi",
+    "price": "free"
+}
+*/
+
+/*
+[
+    {},
+    {},
+    {},
+]
+*/    
+
 
 
