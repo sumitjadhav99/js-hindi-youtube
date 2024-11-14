@@ -42,15 +42,24 @@ if(true){
 
 // console.log(username)
 
-console.log(addOne(2))
+// console.log(addOne(2))
 
 function addOne(num){
     return num + 1
 }
 
-console.log(addTwo(2))
+// console.log(addTwo(2))
+
 const addTwo = function(num){
     return num + 2
 }
 
+function exampleFunction() {
+    const x = "declared inside function"; // x can only be used in exampleFunction
+    console.log("Inside function");
+    console.log(x);
+  }
+  
+  console.log(x); // Causes error
+  
 
