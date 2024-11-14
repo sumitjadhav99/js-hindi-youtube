@@ -9,9 +9,48 @@ if(true){
     let a = 10;
 const b = 20;
 // var c = 30;
-console.log("inner: ", a)
+// console.log("inner: ", a)
 }
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+// nested scope 
+function one(){
+    const username = "Hitesh"
+
+    function two(){
+        const website = "youtube"
+        console.log(username)
+    }
+two()
+//    console.log(website)
+}
+
+// one()
+
+if(true){
+    const username = "Hitesh"
+    if(username === "Hitesh"){
+        const website = "youtube"
+        // console.log(username + website)
+    }
+
+    // console.log(website)
+}
+
+// console.log(username)
+
+console.log(addOne(2))
+
+function addOne(num){
+    return num + 1
+}
+
+console.log(addTwo(2))
+const addTwo = function(num){
+    return num + 2
+}
+
+
